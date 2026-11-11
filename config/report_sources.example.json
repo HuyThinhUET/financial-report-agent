@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "company_code": "REPLACE_ME",
+      "company_name": "Tên doanh nghiệp niêm yết",
+      "exchange": "HOSE",
+      "industry": "retail",
+      "verified": false,
+      "aliases": ["REPLACE_ME", "Ten doanh nghiep khong dau"],
+      "exchange_disclosure_url": "https://official-exchange.example/disclosures?symbol=REPLACE_ME",
+      "allowed_domains": ["official-exchange.example", "example.com"],
+      "ir_url": "https://example.com/investor-relations/financial-reports"
+    }
+  ]
+}
