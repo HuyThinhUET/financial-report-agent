@@ -1,0 +1,222 @@
+[
+  {
+    "company": "VGI",
+    "url": "https://static2.vietstock.vn/vietstock/2025/4/2/1_vgi_2025_4_2_01f016f_vi_bctc_2024_hop_nhat_tieng_viet.pdf",
+    "discovery_page": "https://www.phs.vn/tin-tuc/vgi-bao-cao-tai-chinh-nam-2024/6257440"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_KiemToan_2024.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "ITD",
+    "url": "https://itd.com.vn/uploaded/images/news/20260127/c0c54c8e-2c8c-4626-8004-f165c60aca79.pdf",
+    "discovery_page": "https://itd.com.vn/uploaded/images/news/20260127/c0c54c8e-2c8c-4626-8004-f165c60aca79.pdf"
+  },
+  {
+    "company": "SGT",
+    "url": "https://static2.vietstock.vn/data/HOSE/2024/BCTC/VN/NAM/SGT_Baocaotaichinh_2024_Kiemtoan_Hopnhat.pdf",
+    "discovery_page": "https://static2.vietstock.vn/data/HOSE/2024/BCTC/VN/NAM/SGT_Baocaotaichinh_2024_Kiemtoan_Hopnhat.pdf"
+  },
+  {
+    "company": "VTC",
+    "url": "https://www.vtctelecom.com.vn/download/BCTC2024/KiemToan/VI_BaoCaoTaiChinhHopNhatKiemToan_2024.pdf",
+    "discovery_page": "https://www.vtctelecom.com.vn/vi-VN/bao-cao-tai-chinh/-nam-2024/269/1370"
+  },
+  {
+    "company": "VNZ",
+    "url": "https://cdn.24hmoney.vn/upload/file/2025-2/2025-04-04/no-name-1743710968.pdf",
+    "discovery_page": "https://cafef.vn/du-lieu/upcom/vnz-tai-lieu.chn"
+  },
+  {
+    "company": "FPT",
+    "url": "https://fpt.com/api/media/20261028_FPT_BCTC_hop_nhat_Quy_3_nam_2026_5cc2369cdd.pdf",
+    "discovery_page": "https://fpt.com/vi/nha-dau-tu/thong-tin-cong-bo"
+  },
+  {
+    "company": "FPT",
+    "url": "https://fpt.com/api/media/20260821_FPT_BCTC_hop_nhat_ban_nien_da_soat_xet_nam_2026_3b1ebb3536.pdf",
+    "discovery_page": "https://fpt.com/vi/nha-dau-tu/thong-tin-cong-bo"
+  },
+  {
+    "company": "FPT",
+    "url": "https://fpt.com/api/media/20260727_FPT_BCTC_hop_nhat_Quy_2_2026_8d6b7fdefb.pdf",
+    "discovery_page": "https://fpt.com/vi/nha-dau-tu/thong-tin-cong-bo"
+  },
+  {
+    "company": "FPT",
+    "url": "https://fpt.com/api/media/20260424_fpt_bctc_hop_nhat_quy_1_nam_2026_d03fbbebf9.pdf",
+    "discovery_page": "https://fpt.com/vi/nha-dau-tu/thong-tin-cong-bo"
+  },
+  {
+    "company": "FPT",
+    "url": "https://fpt.com/api/media/20260319_fpt_bctc_hop_nhat_nam_2025_da_kiem_toan_0159f59257.pdf",
+    "discovery_page": "https://fpt.com/vi/nha-dau-tu/thong-tin-cong-bo"
+  },
+  {
+    "company": "FPT",
+    "url": "https://fpt.com/api/media/20260126_fpt_bctc_hop_nhat_quy_4_2025_70861d1c86.pdf",
+    "discovery_page": "https://fpt.com/vi/nha-dau-tu/thong-tin-cong-bo"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1785407257_20260730_elc_bao_cao_tai_chinh_hop_nhat_quy_2_2026.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2026"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1711707846_20240329_elc_bao_cao_tai_chinh_hop_nhat_kiem_toan_2023.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2024"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1692797117_20230823_elc_bao_cao_tai_chinh_hop_nhat_soat_xet_ban_nien_2023.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2023"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1682395999_20221028_elc_bao_cao_tai_chinh_hop_nhat_quy_3_2022.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2022"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1682413881_20222604_elc_bao_cao_tai_chinh_hop_nhat_quy_1_2022_1_.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2022"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1682473209_20190426_20190426_elc_bao_cao_tai_chinh_hop_nhat_quy_1_2019.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2019"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1793349779_20261030_elc_bctc_hop_nhat_quy_3_2026.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2026"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1787906517_20260828_elc_bctc_hop_nhat_soat_xet_ban_nien_2026.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2026"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1777454803_20260429_elc_bctc_hop_nhat_q1_2026.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2026"
+  },
+  {
+    "company": "ELC",
+    "url": "https://www.elcom.com.vn/documents/1774867759_20260330_elc_bctc_hop_nhat_kiem_toan_2025.pdf/view",
+    "discovery_page": "https://www.elcom.com.vn/co-dong/bao-cao-tai-chinh?page=1&year=2026"
+  },
+  {
+    "company": "HPT",
+    "url": "https://www.hpt.vn/res/stockholder/documents/BCKT-HopNhat-20171.pdf",
+    "discovery_page": "https://www.hpt.vn/co-dong"
+  },
+  {
+    "company": "ITD",
+    "url": "https://itd.com.vn/uploaded/images/news/20261029/765b8ce9-e776-4eb1-8f50-4f4366af27f5.pdf",
+    "discovery_page": "https://itd.com.vn/quan-he-co-dong.html"
+  },
+  {
+    "company": "VNZ",
+    "url": "https://cms-investor-cdn.vng.com.vn/25_FN_VNG_Consol_VAS_FS_31_12_V_signed_final_445041878f.pdf",
+    "discovery_page": "https://ir.vng.com.vn/vi/financials/financial-statement/bctc-fy2025"
+  },
+  {
+    "company": "VNZ",
+    "url": "https://cms-investor-cdn.vng.com.vn/VNGG_2025_BCTC_Consolidated_Q4_2025_V_execed_7c81550966.pdf",
+    "discovery_page": "https://ir.vng.com.vn/vi/financials/financial-statement/bctc-q4-2025"
+  },
+  {
+    "company": "VNZ",
+    "url": "https://cms-investor-cdn.vng.com.vn/signed_VNG_LR_2025_Consol_Signed_V_33298f24aa.pdf",
+    "discovery_page": "https://ir.vng.com.vn/vi/financials/financial-statement/bctc-1h-2025"
+  },
+  {
+    "company": "VNZ",
+    "url": "https://corp.vcdn.vn/products/upload/vng/source/Legal/2024/BCTC%20QII%202024/LG_VNG_CBTT_Mau%201B-%20CBTT%20BCTC%20hop%20nhat%20Q2-2024-%C4%91%C3%A3%20g%E1%BB%99p-backend.pdf",
+    "discovery_page": "https://vng.com.vn/news/shareholders/financial-statement-of-qii-2024.html"
+  },
+  {
+    "company": "CMG",
+    "url": "https://cdn.cmc.com.vn/img/posts/files/20250730%20-%20CMG%20-%20Bao%20cao%20tai%20chinh%20hop%20nhat%20Q1.2025%20-%20signed.pdf",
+    "discovery_page": "https://www.cmc.com.vn/"
+  },
+  {
+    "company": "CMG",
+    "url": "https://cdn.cmc.com.vn/img/posts/files/20241030%20-%20Bao%20cao%20tai%20chinh%20hop%20nhat%20quy%202.%202024.signed.pdf",
+    "discovery_page": "https://www.cmc.com.vn/"
+  },
+  {
+    "company": "CMG",
+    "url": "https://cdn.cmc.com.vn/img/posts/files/20231027%20-%20CMG%20-%20Bao%20cao%20tai%20chinh%20hop%20nhat%20Quy%202%202023.signed.pdf",
+    "discovery_page": "https://www.cmc.com.vn/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_Q3_2026-1.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_BanNien_2026.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_Q2_2026_signed.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_Q1.2026.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_KiemToan_2025.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat-Q4_2025.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_Q3_2025.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_BanNien_2025.pdf.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "TTN",
+    "url": "https://vntt.com.vn/wp-content/uploads/VI_BaoCaoTaiChinhHopNhat_Q2.2025.pdf",
+    "discovery_page": "https://vntt.com.vn/bao-cao-tai-chinh/"
+  },
+  {
+    "company": "VTC",
+    "url": "https://www.vtctelecom.com.vn/download/BCTC2024/BCTC%20Q3.2024%20HN_signed.pdf",
+    "discovery_page": "https://www.vtctelecom.com.vn/vi-VN/bao-cao-tai-chinh/-nam-2024/269/1370"
+  },
+  {
+    "company": "VTC",
+    "url": "https://www.vtctelecom.com.vn/download/CBTT2024/BCTC%20B%C3%A1n%20ni%C3%AAn%202024%20HN_signed.pdf",
+    "discovery_page": "https://www.vtctelecom.com.vn/vi-VN/bao-cao-tai-chinh/-nam-2024/269/1370"
+  },
+  {
+    "company": "VTC",
+    "url": "https://www.vtctelecom.com.vn/download/CBTT2024/BCTC%20Q2.2024%20HN_signed.pdf",
+    "discovery_page": "https://www.vtctelecom.com.vn/vi-VN/bao-cao-tai-chinh/-nam-2024/269/1370"
+  },
+  {
+    "company": "VTC",
+    "url": "https://www.vtctelecom.com.vn/download/BCTC2024/BCTC%20Q1.2024%20HN_signed.pdf",
+    "discovery_page": "https://www.vtctelecom.com.vn/vi-VN/bao-cao-tai-chinh/-nam-2024/269/1370"
+  }
+]

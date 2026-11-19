@@ -5,7 +5,10 @@
 *.tmp 
 
 data/
+data-*
+data_evaluate
 .vscode/
 __pycache__/
 
 report_sources.json
+
