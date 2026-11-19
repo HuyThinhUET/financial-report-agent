@@ -1,0 +1,1 @@
+{"type":"object","properties":{"questions":{"type":"array","items":{"type":"object","properties":{"id":{"type":"string"},"question":{"type":"string"}},"required":["id","question"],"additionalProperties":false}}},"required":["questions"],"additionalProperties":false}
