@@ -1,0 +1,304 @@
+{
+  "reports": [
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thep_vat_lieu/hop_nhat_quy/HPG_2ad37ccd3812a3bc.pdf",
+      "company": "HPG",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thep_vat_lieu/hop_nhat_quy/NKG_33dd28b693b57148.pdf",
+      "company": "NKG",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thep_vat_lieu/hop_nhat_quy/NKG_ec5253713f858684.pdf",
+      "company": "NKG",
+      "year": 2026,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thuc_pham_do_uong/hop_nhat_nam/QNS_562c814c82c1d029.pdf",
+      "company": "QNS",
+      "year": 2025,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thuc_pham_do_uong/hop_nhat_quy/DBC_3c8e2d2ad0635e55.pdf",
+      "company": "DBC",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thuc_pham_do_uong/hop_nhat_quy/DBC_7016e8eb57440697.pdf",
+      "company": "DBC",
+      "year": 2026,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thuc_pham_do_uong/hop_nhat_quy/HAG_7447c4a6bcd09cf2.pdf",
+      "company": "HAG",
+      "year": 2026,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thuc_pham_do_uong/hop_nhat_quy/VNM_a6155aa757b320b8.pdf",
+      "company": "VNM",
+      "year": 2026,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/thuc_pham_do_uong/hop_nhat_quy/VNM_fd144a9acb3bacbc.pdf",
+      "company": "VNM",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/GMD_e36bad92065cd306.pdf",
+      "company": "GMD",
+      "year": 2026,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/HAH_15c0d406e3d45d1a.pdf",
+      "company": "HAH",
+      "year": 2026,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/HAH_6ab34dd28cae4253.pdf",
+      "company": "HAH",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/HVN_3de14906979aa944.pdf",
+      "company": "HVN",
+      "year": 2025,
+      "quarter": 4
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/VOS_6bea69c573a5ad1c.pdf",
+      "company": "VOS",
+      "year": 2026,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/VOS_d12062da2364caee.pdf",
+      "company": "VOS",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/VSC_e14b2048135d741c.pdf",
+      "company": "VSC",
+      "year": 2026,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/5-linh-vuc/van_tai_logistics/hop_nhat_quy/VTP_d61dbe66f8c76f38.pdf",
+      "company": "VTP",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/TTN_ad6a66feb7922314.pdf",
+      "company": "TTN",
+      "year": 2024,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/TTN_ad6f7a36fdaeaaca.pdf",
+      "company": "TTN",
+      "year": 2025,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/VNZ_58394b4dd8dd40ec.pdf",
+      "company": "VNZ",
+      "year": 2025,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/VTC_6ceede1b6010708a.pdf",
+      "company": "VTC",
+      "year": 2024,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/CMG_1b7b1339334970b5.pdf",
+      "company": "CMG",
+      "year": 2025,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/VTC_7be560b34a10b245.pdf",
+      "company": "VTC",
+      "year": 2024,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/VTC_aa957ec4d50a1002.pdf",
+      "company": "VTC",
+      "year": 2024,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/VTC_e1ed25e4734b87f8.pdf",
+      "company": "VTC",
+      "year": 2024,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_8716846662748493.pdf",
+      "company": "ELC",
+      "year": 2026,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/ELC_026e3ba0448fb744.pdf",
+      "company": "ELC",
+      "year": 2023,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_3fa8814716ebde3e.pdf",
+      "company": "ELC",
+      "year": 2022,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_da25414677499655.pdf",
+      "company": "ELC",
+      "year": 2022,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_37b89f26b94f8707.pdf",
+      "company": "ELC",
+      "year": 2019,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_908ff155402c26e0.pdf",
+      "company": "ELC",
+      "year": 2026,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_04137434f09e0f08.pdf",
+      "company": "ELC",
+      "year": 2026,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/ELC_1eebe99d6966425e.pdf",
+      "company": "ELC",
+      "year": 2025,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_9f1fd55c5d123384.pdf",
+      "company": "ELC",
+      "year": 2025,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_e3874491c9485510.pdf",
+      "company": "ELC",
+      "year": 2025,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_34d7ac9a59ccbf5c.pdf",
+      "company": "ELC",
+      "year": 2025,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/ELC_97238466a2081258.pdf",
+      "company": "ELC",
+      "year": 2024,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_5f07201810f66cb7.pdf",
+      "company": "ELC",
+      "year": 2024,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_ef2d49d9db8f0178.pdf",
+      "company": "ELC",
+      "year": 2024,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_d085e6e55ea89615.pdf",
+      "company": "ELC",
+      "year": 2023,
+      "quarter": 4
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_94291c4bde4b7e96.pdf",
+      "company": "ELC",
+      "year": 2023,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_0a9e1be1bd254bec.pdf",
+      "company": "ELC",
+      "year": 2023,
+      "quarter": 1
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/ELC_3942f33e5e4a5bd6.pdf",
+      "company": "ELC",
+      "year": 2022,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_3ebc6ae09d33d119.pdf",
+      "company": "ELC",
+      "year": 2022,
+      "quarter": 4
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_a4d24e46387ef8ba.pdf",
+      "company": "ELC",
+      "year": 2022,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_nam/ELC_cb5bb34d96063331.pdf",
+      "company": "ELC",
+      "year": 2021,
+      "quarter": null
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_ff54ebf11d1e9af8.pdf",
+      "company": "ELC",
+      "year": 2021,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_fed348db76a51109.pdf",
+      "company": "ELC",
+      "year": 2021,
+      "quarter": 2
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_f321ef625b3b8149.pdf",
+      "company": "ELC",
+      "year": 2020,
+      "quarter": 3
+    },
+    {
+      "pdf": "data/data_raw/tech-manufacturing-statements/hop_nhat_quy/ELC_9fe4224e02f97883.pdf",
+      "company": "ELC",
+      "year": 2020,
+      "quarter": 2
+    }
+  ]
+}

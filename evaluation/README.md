@@ -4,7 +4,16 @@ Dữ liệu gốc nằm trong `data/data_raw/`; insight và log nằm trong `dat
 
 Chạy các lệnh từ thư mục gốc dự án; cần Python 3.10+, Codex CLI đã đăng nhập và công cụ đọc PDF của môi trường Codex (ví dụ PyMuPDF). Mỗi báo cáo khởi chạy một tiến trình `codex exec --ephemeral` riêng, không tiếp tục phiên trước. PDF được gửi cho nhà cung cấp model theo cấu hình Codex và có thể phát sinh chi phí.
 
-Xem 20 lệnh cụ thể tại [PREPARED_COMMANDS.md](insights_builder/PREPARED_COMMANDS.md). Một lệnh cho một báo cáo:
+Xem 20 lệnh cụ thể tại [PREPARED_COMMANDS.md](insights_builder/PREPARED_COMMANDS.md).
+
+Danh sách bổ sung 50 báo cáo nằm tại [prepared_statements_additional_50.json](insights_builder/prepared_statements_additional_50.json), tách khỏi danh sách 20 báo cáo ban đầu. Kỳ dự kiến được lấy từ nhãn hoặc tên tệp nguồn, bao gồm các báo cáo ELC từ nhiều năm; cần đối chiếu công ty, phạm vi hợp nhất và kỳ trong chính PDF khi trích xuất. Xem trước hoặc chạy tuần tự:
+
+```powershell
+python -m evaluation.insights_builder --manifest evaluation/insights_builder/prepared_statements_additional_50.json --list
+python -m evaluation.insights_builder --manifest evaluation/insights_builder/prepared_statements_additional_50.json --max_sample 50
+```
+
+Các thư mục kết quả đã có cùng công ty/kỳ vẫn bị bỏ qua, kể cả khi lần chạy trước thất bại. Có thể thêm `--codex` nếu CLI không nằm trên PATH. Ví dụ lệnh cho một báo cáo:
 
 ```powershell
 python -m evaluation.insights_builder --pdf 'data/data_raw/5-linh-vuc/dau_khi_khoang_san/hop_nhat_nam/PLX_5570d8cdb64de8f7.pdf' --company PLX --year 2025
@@ -35,6 +44,6 @@ Kết quả nằm tại `data/data_evaluate/STT_MACONGTY_NAM[_QUY]`: `insights.j
 
 Script cũng kiểm tra dấu hiệu mất mã tiếng Việt và đánh dấu lỗi nếu phát hiện, nhưng đây là kiểm tra gần đúng, không đảm bảo phát hiện mọi trường hợp. Nếu `insights.json` có nhiều dấu `?` thay chữ tiếng Việt, kiểm tra cả `events.jsonl`; không dùng dữ liệu lỗi để đánh giá.
 
-Danh sách nhóm và các quy tắc về kỳ quý, lũy kế, dấu và đơn vị nằm trong [prompt mặc định](insights_builder/financial_statement_prompt.txt). [FEATURES.md](insights_builder/FEATURES.md) gộp tài liệu tham khảo về các chỉ tiêu và feature có thể phát triển thêm. Bộ dữ liệu lịch sử không thuộc luồng chạy mặc định.
+Danh sách nhóm và các quy tắc về kỳ quý, lũy kế, dấu và đơn vị nằm trong [prompt mặc định](insights_builder/financial_statement_prompt.txt). [FEATURES.md](insights_builder/FEATURES.md) tổng hợp 5 bài nhóm và handout, kèm công thức, trang nguồn và lưu ý kiểm chứng; prompt mặc định đã cụ thể hóa các nhóm chỉ tiêu và insight từ những mẫu này. Các bài mẫu là nguồn gợi ý, không phải nhãn chuẩn đã được chuyên gia xác nhận. Bộ dữ liệu lịch sử không thuộc luồng chạy mặc định.
 
 Khi tạo bộ đánh giá, khóa danh sách tài liệu và chia tập theo doanh nghiệp trước khi điều chỉnh prompt hoặc chấm điểm; cân nhắc xếp các công ty có liên quan vào cùng nhóm để giảm rò rỉ. Không coi từ khóa, lớp chữ OCR hay việc khớp trích dẫn tự động là bằng chứng đã kiểm tra đúng kỳ, phạm vi và bố cục bảng. Hash trong `run_config.json` ghi lại phiên bản PDF lúc chạy; script chưa so sánh hash với một manifest đã khóa trước đó.

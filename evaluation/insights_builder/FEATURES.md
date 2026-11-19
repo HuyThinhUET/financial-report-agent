@@ -25,7 +25,9 @@ Nguồn nền tảng: [CFA Institute – Financial Analysis Techniques](https://
 
 # Những chỉ tiêu và insight thường dùng khi phân tích báo cáo tài chính
 
-Ghi chú học tập và thiết kế baseline cho KLTN, dành cho người có nền tảng CS. Tài liệu tổng hợp từ **5 bài tập nhóm và 1 handout** trong thư mục `Phân tích BCTC`. Đây là các bài học thuật của sinh viên, không phải tập nhãn đã được chuyên gia xác nhận. **Chỉ số tài chính** là đại lượng/công thức; **insight** là nhận xét có ý nghĩa từ một hoặc nhiều chỉ số trong ngữ cảnh cụ thể.
+Ghi chú học tập và thiết kế baseline cho KLTN, dành cho người có nền tảng CS. Tài liệu tổng hợp từ **5 bài tập nhóm và 1 handout** trong thư mục `Mẫu phân tích từ sinh viên`. Đây là các bài học thuật của sinh viên, không phải tập nhãn đã được chuyên gia xác nhận. **Chỉ số tài chính** là đại lượng/công thức; **insight** là nhận xét có ý nghĩa từ một hoặc nhiều chỉ số trong ngữ cảnh cụ thể.
+
+Danh mục sử dụng khi trích xuất được chia thành các mục con trong [prompt mặc định](financial_statement_prompt.txt): thanh khoản (4 mục), cơ cấu vốn và trả lãi (4), hiệu quả hoạt động (4), sinh lời và DuPont (6), cơ cấu và xu hướng (5). Các mục là hướng tìm kiếm, không yêu cầu tạo đủ insight khi thiếu dữ liệu; những bảng bên dưới giải thích công thức, ý nghĩa và giới hạn.
 
 Ví dụ: `hệ số thanh toán hiện hành = 1,2 lần` là một chỉ số. “Hệ số giảm từ 1,5 xuống 1,2 lần, cho thấy biên đệm tài sản ngắn hạn so với nợ ngắn hạn thu hẹp” là một insight. Kết luận “do công ty quản lý kém” cần thêm bằng chứng.
 
@@ -51,11 +53,11 @@ Quy ước nên khóa trong bộ đánh giá:
 
 ## 2. Các nhóm chỉ tiêu xuất hiện trong tài liệu
 
-Handout chia phân tích thành thanh toán, cân đối vốn, hoạt động và sinh lời ([handout, trang PDF 4–10](<../../../Phân tích BCTC/Phân tích TC handown.pdf#page=4>)). Cả năm bài nhóm dùng các nhóm này; các bài của Nhóm 3, Nhóm 4 và Nhóm 8 trình bày thêm DuPont. Nhóm 1 còn có ví dụ phân tích cơ cấu tài sản ([Nhóm 1, trang 14–19](<../../../Phân tích BCTC/Nhóm1-Vinamilk-2022-2024.pdf#page=14>)).
+Handout chia phân tích thành thanh toán, cân đối vốn, hoạt động và sinh lời ([handout, trang PDF 4–10](<../../Mẫu phân tích từ sinh viên/Phân tích TC handown.pdf#page=4>)). Cả năm bài nhóm dùng các nhóm này; các bài của Nhóm 3, Nhóm 4 và Nhóm 8 trình bày thêm DuPont. Nhóm 1 còn có ví dụ phân tích cơ cấu tài sản ([Nhóm 1, trang 14–19](<../../Mẫu phân tích từ sinh viên/Nhóm1-Vinamilk-2022-2024.pdf#page=14>)).
 
 ### 2.1. Thanh khoản: có đủ nguồn lực trả nợ ngắn hạn không?
 
-Các công thức dưới đây theo cách trình bày trong [Nhóm 4, trang 5–10](<../../../Phân tích BCTC/Nhóm4-HoaPhat-2022-2024.pdf#page=5>) và [handout, trang 5–6](<../../../Phân tích BCTC/Phân tích TC handown.pdf#page=5>).
+Các công thức dưới đây theo cách trình bày trong [Nhóm 4, trang 5–10](<../../Mẫu phân tích từ sinh viên/Nhóm4-HoaPhat-2022-2024.pdf#page=5>) và [handout, trang 5–6](<../../Mẫu phân tích từ sinh viên/Phân tích TC handown.pdf#page=5>).
 
 | Chỉ tiêu | Công thức | Đọc như thế nào / insight có thể tìm |
 |---|---|---|
@@ -68,7 +70,7 @@ Các công thức dưới đây theo cách trình bày trong [Nhóm 4, trang 5�
 
 ### 2.2. Cơ cấu vốn và đòn bẩy: tài sản được tài trợ bằng gì?
 
-Các nhóm dùng [hệ số nợ, tự chủ, nợ/VCSH và lãi vay](<../../../Phân tích BCTC/Nhóm8-Vinamilk-2022-2024.pdf#page=20>).
+Các nhóm dùng [hệ số nợ, tự chủ, nợ/VCSH và lãi vay](<../../Mẫu phân tích từ sinh viên/Nhóm8-Vinamilk-2022-2024.pdf#page=20>).
 
 | Chỉ tiêu | Công thức | Ý nghĩa và giới hạn |
 |---|---|---|
@@ -82,7 +84,7 @@ Các nhóm dùng [hệ số nợ, tự chủ, nợ/VCSH và lãi vay](<../../../
 
 ### 2.3. Hiệu quả hoạt động: doanh nghiệp dùng nguồn lực nhanh và hiệu quả ra sao?
 
-Các bài dùng doanh thu hoặc giá vốn trong cả kỳ, chia cho số dư bình quân. Công thức được trình bày rõ trong [Nhóm 4, trang 21–25](<../../../Phân tích BCTC/Nhóm4-HoaPhat-2022-2024.pdf#page=21>) và [Nhóm 8, trang 26–32](<../../../Phân tích BCTC/Nhóm8-Vinamilk-2022-2024.pdf#page=26>).
+Các bài dùng doanh thu hoặc giá vốn trong cả kỳ, chia cho số dư bình quân. Công thức được trình bày rõ trong [Nhóm 4, trang 21–25](<../../Mẫu phân tích từ sinh viên/Nhóm4-HoaPhat-2022-2024.pdf#page=21>) và [Nhóm 8, trang 26–32](<../../Mẫu phân tích từ sinh viên/Nhóm8-Vinamilk-2022-2024.pdf#page=26>).
 
 | Chỉ tiêu | Công thức | Câu hỏi cần trả lời |
 |---|---|---|
@@ -96,7 +98,7 @@ Các bài dùng doanh thu hoặc giá vốn trong cả kỳ, chia cho số dư b
 
 Với báo cáo năm, các tài liệu dùng cả **360 và 365 ngày**. Ví dụ Nhóm 2 dùng 360 ngày cho nhiều kỳ luân chuyển, còn Nhóm 4 và 8 dùng 365. Chọn một quy ước trước khi chấm và giữ nhất quán; không so sánh hai kết quả mà không biết quy ước. Với quý dùng số ngày tương ứng hoặc quy ước đã khóa, không tự dùng 365 cho mọi kỳ.
 
-**Ví dụ có phép tính:** Nhóm 4 nêu GVHB 2022 của Hòa Phát là 124.645,85 tỷ đồng, HTK đầu kỳ 42.370,01 và cuối kỳ 34.491,11 tỷ đồng. HTK bình quân = `(42.370,01 + 34.491,11)/2 = 38.430,56` tỷ; vòng quay ≈ `124.645,85/38.430,56 = 3,24 vòng` ([trang 21](<../../../Phân tích BCTC/Nhóm4-HoaPhat-2022-2024.pdf#page=21>)). Nếu dùng 365 ngày và số vòng quay đã làm tròn 3,24 thì kỳ luân chuyển ≈ **112,65 ngày**. Nếu tính từ số chưa làm tròn, kết quả có thể khác nhẹ.
+**Ví dụ có phép tính:** Nhóm 4 nêu GVHB 2022 của Hòa Phát là 124.645,85 tỷ đồng, HTK đầu kỳ 42.370,01 và cuối kỳ 34.491,11 tỷ đồng. HTK bình quân = `(42.370,01 + 34.491,11)/2 = 38.430,56` tỷ; vòng quay ≈ `124.645,85/38.430,56 = 3,24 vòng` ([trang 21](<../../Mẫu phân tích từ sinh viên/Nhóm4-HoaPhat-2022-2024.pdf#page=21>)). Nếu dùng 365 ngày và số vòng quay đã làm tròn 3,24 thì kỳ luân chuyển ≈ **112,65 ngày**. Nếu tính từ số chưa làm tròn, kết quả có thể khác nhẹ.
 
 **Mẫu insight:** “Kỳ thu tiền tăng và khoản phải thu tăng nhanh hơn doanh thu” → cần đọc thêm cơ cấu, tuổi nợ, dự phòng, điều khoản bán hàng. Điều đó **chưa đủ** chứng minh khách hàng chậm trả hay doanh nghiệp không thu được tiền.
 
@@ -110,13 +112,13 @@ Với báo cáo năm, các tài liệu dùng cả **360 và 365 ngày**. Ví d�
 | **ROA** | `LNST hợp nhất / Tổng tài sản bình quân × 100%` | Khả năng tạo LNST so với tài sản bình quân. Có biến thể dùng lợi nhuận và mẫu số khác: cần công bố định nghĩa. |
 | **ROE** | `LNST hợp nhất / VCSH hợp nhất bình quân × 100%` | Phiên bản tổng nhóm, dùng được nhất quán trong DuPont. Nếu đánh giá cổ đông công ty mẹ: dùng `LNST thuộc cổ đông công ty mẹ / VCSH thuộc cổ đông công ty mẹ bình quân`; giữ tử và mẫu cùng phạm vi. |
 
-Trong tài liệu, [Nhóm 2, trang 30–32](<../../../Phân tích BCTC/Nhóm2-SongHong-2022-2024.pdf#page=30>) có ROA/ROE dùng **số cuối kỳ** trong một bảng, nhưng phân tích DuPont dùng **bình quân**. Hai kết quả có thể đều tính đúng theo định nghĩa riêng mà không bằng nhau. Với agent, câu trả lời phải nói rõ phương pháp chứ không gộp chúng thành một ground truth.
+Trong tài liệu, [Nhóm 2, trang 30–32](<../../Mẫu phân tích từ sinh viên/Nhóm2-SongHong-2022-2024.pdf#page=30>) có ROA/ROE dùng **số cuối kỳ** trong một bảng, nhưng phân tích DuPont dùng **bình quân**. Hai kết quả có thể đều tính đúng theo định nghĩa riêng mà không bằng nhau. Với agent, câu trả lời phải nói rõ phương pháp chứ không gộp chúng thành một ground truth.
 
 **Mẫu insight:** “Doanh thu tăng nhưng biên gộp giảm” → giá vốn tăng nhanh hơn doanh thu theo tỷ lệ. Để kết luận do nguyên vật liệu, giá bán hay cơ cấu sản phẩm cần thêm bằng chứng từ BCTC/thuyết minh hoặc nguồn khác.
 
 ### 2.5. DuPont: tách ROE thành các nhân tố
 
-Các nhóm dùng dạng ba nhân tố ([Nhóm 4, trang 41–44](<../../../Phân tích BCTC/Nhóm4-HoaPhat-2022-2024.pdf#page=41>)):
+Các nhóm dùng dạng ba nhân tố ([Nhóm 4, trang 41–44](<../../Mẫu phân tích từ sinh viên/Nhóm4-HoaPhat-2022-2024.pdf#page=41>)):
 
 ```text
 ROE = ROS × Vòng quay tổng tài sản × Hệ số nhân vốn chủ
@@ -130,7 +132,7 @@ Thay thế liên hoàn có thể phân rã chênh lệch ROE giữa hai kỳ the
 
 ### 2.6. Phân tích cơ cấu, tăng trưởng và xu hướng
 
-Các bài không chỉ tính ratio mà còn so sánh ngang qua các năm và cơ cấu theo chiều dọc ([handout, trang 3–4](<../../../Phân tích BCTC/Phân tích TC handown.pdf#page=3>)).
+Các bài không chỉ tính ratio mà còn so sánh ngang qua các năm và cơ cấu theo chiều dọc ([handout, trang 3–4](<../../Mẫu phân tích từ sinh viên/Phân tích TC handown.pdf#page=3>)).
 
 | Chỉ tiêu | Công thức / cách đọc |
 |---|---|
@@ -179,21 +181,21 @@ Các loại insight nên thiết kế để kiểm tra:
 
 Đây là những ví dụ hữu ích để học kiểm chứng, không phải đánh giá chất lượng toàn bộ bài:
 
-- [Nhóm 3 Hòa Phát, trang 20](<../../../Phân tích BCTC/Nhóm3-HoaPhat-2022-2024.pdf#page=20>) ghi vòng quay HTK 2022 là **325** và kỳ HTK **110,7 ngày** theo công thức `360 / vòng quay`. Hai con số này không nhất quán: `360/325 ≈ 1,11`, không phải 110,7. Slide cũng ghi vòng quay phải thu 35,65 nhưng kỳ là 101 ngày; `360/35,65 ≈ 10,10`. Không tự sửa số hay chọn nhãn chuẩn nếu chưa kiểm tra dữ liệu gốc.
-- [Nhóm 2 Sông Hồng, trang 20](<../../../Phân tích BCTC/Nhóm2-SongHong-2022-2024.pdf#page=20>) có bảng vòng quay HTK 2022 **6,09** và thời gian **59,11 ngày**, nhưng phần văn bản cùng trang ghi **9,11 ngày**. `360/6,09 ≈ 59,11`; câu văn có vẻ thiếu chữ số, vẫn phải đối chiếu nguồn trước khi dùng.
-- [Nhóm 4 Hòa Phát, trang 39](<../../../Phân tích BCTC/Nhóm4-HoaPhat-2022-2024.pdf#page=39>) có tiêu đề ROE và công thức theo VCSH, nhưng bảng trên slide lại trình bày tổng tài sản bình quân và ROA. Không dùng bảng đó làm đáp án ROE nếu chưa đối chiếu.
-- [Nhóm 2, trang 30–32](<../../../Phân tích BCTC/Nhóm2-SongHong-2022-2024.pdf#page=30>) thể hiện khác biệt ROE cuối kỳ so với ROE tính theo bình quân trong DuPont. Đây là khác biệt định nghĩa cần ghi lại, không tự coi hai giá trị tương đương.
+- [Nhóm 3 Hòa Phát, trang 20](<../../Mẫu phân tích từ sinh viên/Nhóm3-HoaPhat-2022-2024.pdf#page=20>) ghi vòng quay HTK 2022 là **325** và kỳ HTK **110,7 ngày** theo công thức `360 / vòng quay`. Hai con số này không nhất quán: `360/325 ≈ 1,11`, không phải 110,7. Slide cũng ghi vòng quay phải thu 35,65 nhưng kỳ là 101 ngày; `360/35,65 ≈ 10,10`. Không tự sửa số hay chọn nhãn chuẩn nếu chưa kiểm tra dữ liệu gốc.
+- [Nhóm 2 Sông Hồng, trang 20](<../../Mẫu phân tích từ sinh viên/Nhóm2-SongHong-2022-2024.pdf#page=20>) có bảng vòng quay HTK 2022 **6,09** và thời gian **59,11 ngày**, nhưng phần văn bản cùng trang ghi **9,11 ngày**. `360/6,09 ≈ 59,11`; câu văn có vẻ thiếu chữ số, vẫn phải đối chiếu nguồn trước khi dùng.
+- [Nhóm 4 Hòa Phát, trang 39](<../../Mẫu phân tích từ sinh viên/Nhóm4-HoaPhat-2022-2024.pdf#page=39>) có tiêu đề ROE và công thức theo VCSH, nhưng bảng trên slide lại trình bày tổng tài sản bình quân và ROA. Không dùng bảng đó làm đáp án ROE nếu chưa đối chiếu.
+- [Nhóm 2, trang 30–32](<../../Mẫu phân tích từ sinh viên/Nhóm2-SongHong-2022-2024.pdf#page=30>) thể hiện khác biệt ROE cuối kỳ so với ROE tính theo bình quân trong DuPont. Đây là khác biệt định nghĩa cần ghi lại, không tự coi hai giá trị tương đương.
 - Nhiều nhận xét trong slide gắn tăng/giảm với “quản trị tốt”, “nguyên nhân do…” hoặc “an toàn”. Chỉ số đơn lẻ thường không đủ để chứng minh các kết luận đó; cần so sánh ngành/kỳ, thuyết minh và bằng chứng phù hợp.
 
 ## 5. Danh mục tài liệu đã đọc
 
 Số trang dưới đây là **trang PDF tính từ 1**:
 
-1. [Phân tích TC handown.pdf](<../../../Phân tích BCTC/Phân tích TC handown.pdf>) — 10 trang: phương pháp so sánh, cơ cấu, thanh khoản, cân đối vốn, hoạt động và DuPont.
-2. [Nhóm 1 — Vinamilk 2022–2024](<../../../Phân tích BCTC/Nhóm1-Vinamilk-2022-2024.pdf>) — 39 trang: thanh khoản, hoạt động, cơ cấu tài sản, đòn bẩy, sinh lời, DuPont.
-3. [Nhóm 2 — Sông Hồng 2022–2024](<../../../Phân tích BCTC/Nhóm2-SongHong-2022-2024.pdf>) — 37 trang: bốn nhóm tỷ số, luân chuyển vốn và DuPont.
-4. [Nhóm 3 — Hòa Phát 2022–2024](<../../../Phân tích BCTC/Nhóm3-HoaPhat-2022-2024.pdf>) — 38 trang: bốn nhóm tỷ số, cơ cấu nợ, DuPont; cần kiểm tra một số số liệu trên slide.
-5. [Nhóm 4 — Hòa Phát 2022–2024](<../../../Phân tích BCTC/Nhóm4-HoaPhat-2022-2024.pdf>) — 47 trang: công thức, bảng đầu vào, so sánh và DuPont/thay thế liên hoàn.
-6. [Nhóm 8 — Vinamilk 2022–2024](<../../../Phân tích BCTC/Nhóm8-Vinamilk-2022-2024.pdf>) — 44 trang: bốn nhóm tỷ số, công thức và DuPont.
+1. [Phân tích TC handown.pdf](<../../Mẫu phân tích từ sinh viên/Phân tích TC handown.pdf>) — 10 trang: phương pháp so sánh, cơ cấu, thanh khoản, cân đối vốn, hoạt động và DuPont.
+2. [Nhóm 1 — Vinamilk 2022–2024](<../../Mẫu phân tích từ sinh viên/Nhóm1-Vinamilk-2022-2024.pdf>) — 39 trang: thanh khoản, hoạt động, cơ cấu tài sản, đòn bẩy, sinh lời, DuPont.
+3. [Nhóm 2 — Sông Hồng 2022–2024](<../../Mẫu phân tích từ sinh viên/Nhóm2-SongHong-2022-2024.pdf>) — 37 trang: bốn nhóm tỷ số, luân chuyển vốn và DuPont.
+4. [Nhóm 3 — Hòa Phát 2022–2024](<../../Mẫu phân tích từ sinh viên/Nhóm3-HoaPhat-2022-2024.pdf>) — 38 trang: bốn nhóm tỷ số, cơ cấu nợ, DuPont; cần kiểm tra một số số liệu trên slide.
+5. [Nhóm 4 — Hòa Phát 2022–2024](<../../Mẫu phân tích từ sinh viên/Nhóm4-HoaPhat-2022-2024.pdf>) — 47 trang: công thức, bảng đầu vào, so sánh và DuPont/thay thế liên hoàn.
+6. [Nhóm 8 — Vinamilk 2022–2024](<../../Mẫu phân tích từ sinh viên/Nhóm8-Vinamilk-2022-2024.pdf>) — 44 trang: bốn nhóm tỷ số, công thức và DuPont.
 
 Nguồn bổ sung để đối chiếu tên nhóm chỉ số và các biến thể: [CFA Institute — Financial Analysis Techniques](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques), [CFA Institute — Financial Ratio List](https://www.cfainstitute.org/sites/default/files/-/media/documents/support/programs/cfa/cfa_program_level_ii_financial_ratio_list.pdf). Tài liệu CFA cũng lưu ý có thể tồn tại nhiều định nghĩa tỷ số; khi đánh giá cần khóa định nghĩa trước.
